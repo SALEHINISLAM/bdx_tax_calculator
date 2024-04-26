@@ -124,8 +124,8 @@ button:hover {
     h1 {
         text-align: center;
         color: #333;
-        margin-bottom: 20px;
-        margin-top:15rem;
+/*         margin-bottom: 20px; */
+        margin-top:10%;
         padding-top: 10%; 
     }
     input[type="number"],
