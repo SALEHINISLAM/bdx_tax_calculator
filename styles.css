@@ -1,0 +1,142 @@
+/* General body and container styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    /* z-index: 2; /* Sit on top */
+    left: 10%;
+    top: 20%; 
+    width: 80%; /* Full width */
+    height: 60%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #3e3e3e; /* Black with opacity */
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #3e3e3e;
+    margin: 10% auto; /* 10% from the top and centered in the viewport */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+    text-align: center; /* Center-align the text */
+    font-size: larger;
+    font-style: normal;
+    font-weight: bolder;
+    text-emphasis-color: #fff;
+}
+#taxResult{
+    color: #fff;
+}
+.modal-ok-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#result{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for form headings */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    /* margin-top:10rem; */
+    padding-top: 10%; 
+}
+
+/* Form grouping style */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Input and select box styling */
+input[type="number"],
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 15px;
+    }
+    h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+        margin-top:15rem;
+        padding-top: 10%; 
+    }
+    input[type="number"],
+    input[type="text"],
+    select,
+    button {
+        font-size: 14px;
+    }
+}
+
+/* Dynamic visibility for production income */
+#productionIncomeGroup.visible {
+    display: block;
+}
