@@ -1,3 +1,4 @@
+
 /* General body and container styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -7,7 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: -webkit-fill-available;
 }
 
 /* The Modal (background) */
@@ -70,7 +71,7 @@ h1 {
     color: #333;
     margin-bottom: 20px;
     /* margin-top:10rem; */
-    padding-top: 10%; 
+    /* padding-top: 10%;  */
 }
 
 /* Form grouping style */
@@ -124,9 +125,9 @@ button:hover {
     h1 {
         text-align: center;
         color: #333;
-/*         margin-bottom: 20px; */
-        margin-top: 20%;
-        padding-top: 10%; 
+        margin-bottom: 20px;
+        margin-top: 2rem;
+        padding-top: 2rem; 
     }
     input[type="number"],
     input[type="text"],
