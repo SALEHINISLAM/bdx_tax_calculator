@@ -1,4 +1,6 @@
-
+html{
+    height: fit-content;
+}
 /* General body and container styles */
 body {
     font-family: 'Arial', sans-serif;
